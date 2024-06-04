@@ -5,13 +5,17 @@ HealthChecker is a simple command-line tool for checking the health status of a 
 ### Usage
 
 ```bash
-./HealthChecker --domain example.com --ports 80,443
+./HealthChecker --domain example.com 
+```
+Optional
+```bash
+./HealthChecker --domain example.com --ports "8080,8000,25"
 ```
 
 #### Flags
 
 - `--domain` (`-d`): The URL to check (required).
-- `--ports` (`-p`): The ports to check, separated by commas (default: 80,443). This flag is optional for checking other ports
+- `--ports` (`-p`): The ports to check, separated by commas (default: 80,443). This flag is optional for checking other ports, 80 and 443 are checked automaically
 
 ### How It Works
 
