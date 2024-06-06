@@ -1,6 +1,6 @@
 ## HealthChecker
 
-HealthChecker is a simple command-line tool for checking the health status of a service, including its availability and SSL certificate details.
+HealthChecker is a simple command-line tool for checking the health status of a service, including its availability and SSL certificate details. I started with a tutorial of how to check a websites health with Go in order to learn more about the language and then added some additional functionality to include the SSL information.
 
 ### Usage
 
